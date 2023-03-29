@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de Login</title>
+
+  <link rel="stylesheet" href="./estilos/style.css" media="all">
+  <link rel="stylesheet" href="./estilos/media-query.css">
+</head>
+<body>
+
+  
+  <main>
+
+<div class="formulario">
+  
+      <div id="logo">
+        <img src="./images/logo.png" alt="Logo Vertigo">
+      </div>
+  
+    <section id="form">
+      <h1>Acesse a plataforma</h1>
+  
+      <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
+  
+      <form id="campos-form" action="login.php" method="post" autocomplete="on">
+  
+        <p>
+          <label for="email">E-mail</label> <br> <br>
+          <input type="email" name="email" id="email" placeholder="Digite seu e-mail" autocomplete="email" required>
+        </p>
+  
+        <p>
+          <div class="esqueceu-senha">
+            <div class="left"><label for="senha">Senha</label></div>
+            <div class="right"><a href="#">Esqueceu a senha?</a></div> <br> <br>
+          </div>
+        </p>
+        <p id="senha">
+          <input type="password" name="senha" id="senha" placeholder="Digite sua senha" autocomplete="current-password" required>
+        </p>
+  
+        <p>
+          <input type="submit" value="Entrar">
+        </p>
+  
+        <p id="inscreva-se">Ainda não tem uma conta? <a href="#">Inscreva-se</a></p>
+      </form>
+    </section>
+</div>
+
+<div class="image">
+  
+</div>
+
+</main>
+
+</body>
+</html>
