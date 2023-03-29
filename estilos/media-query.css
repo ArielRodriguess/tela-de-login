@@ -31,6 +31,10 @@ Grandes Telas: acima de 1200px
     background-size: cover;
   }
 
+  #logo {
+    margin: 20px auto 20px;
+  }
+
   .formulario {
     width: 50%;
   }
